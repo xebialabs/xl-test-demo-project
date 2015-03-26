@@ -16,77 +16,77 @@ public class GambiaTest {
     }
 
     @Test
-    public void testOne() {
+    public void GambiaOne() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTwo() {
+    public void GambiaTwo() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testThree() {
+    public void GambiaThree() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testFour() {
+    public void GambiaFour() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testFive() {
+    public void GambiaFive() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testSix() {
+    public void GambiaSix() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testSeven() {
+    public void GambiaSeven() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testEight() {
+    public void GambiaEight() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testNine() {
+    public void GambiaNine() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTen() {
+    public void GambiaTen() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testEleven() {
+    public void GambiaEleven() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTwelve() {
+    public void GambiaTwelve() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testThirteen() {
+    public void GambiaThirteen() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testFourteen() {
+    public void GambiaFourteen() {
         assertTrue(one.succeeds());
     }
 
     @Test
-    public void testFifteen() {
+    public void GambiaFifteen() {
         assertTrue(one.random(0.95));
     }
 

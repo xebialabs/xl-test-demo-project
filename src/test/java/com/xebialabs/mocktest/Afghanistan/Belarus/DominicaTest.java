@@ -17,77 +17,77 @@ public class DominicaTest {
     }
 
     @Test
-    public void testOne() {
+    public void dominicaOne() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTwo() {
+    public void dominicaTwo() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThree() {
+    public void dominicaThree() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFour() {
+    public void dominicaFour() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testFive() {
+    public void dominicaFive() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSix() {
+    public void dominicaSix() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSeven() {
+    public void dominicaSeven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testEight() {
+    public void dominicaEight() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testNine() {
+    public void dominicaNine() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTen() {
+    public void dominicaTen() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testEleven() {
+    public void dominicaEleven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testTwelve() {
+    public void dominicaTwelve() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThirteen() {
+    public void dominicaThirteen() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFourteen() {
+    public void dominicaFourteen() {
         assertTrue(one.succeeds());
     }
 
     @Test
-    public void testFifteen() {
+    public void dominicaFifteen() {
         assertTrue(one.random(0.95));
     }
 

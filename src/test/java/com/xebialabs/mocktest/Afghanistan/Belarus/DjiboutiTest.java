@@ -17,77 +17,77 @@ public class DjiboutiTest {
     }
 
     @Test
-    public void testOne() {
+    public void djiboutiOne() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTwo() {
+    public void djiboutiTwo() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThree() {
+    public void djiboutiThree() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFour() {
+    public void djiboutiFour() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testFive() {
+    public void djiboutiFive() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSix() {
+    public void djiboutiSix() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSeven() {
+    public void djiboutiSeven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testEight() {
+    public void djiboutiEight() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testNine() {
+    public void djiboutiNine() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTen() {
+    public void djiboutiTen() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testEleven() {
+    public void djiboutiEleven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testTwelve() {
+    public void djiboutiTwelve() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThirteen() {
+    public void djiboutiThirteen() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFourteen() {
+    public void djiboutiFourteen() {
         assertTrue(one.succeeds());
     }
 
     @Test
-    public void testFifteen() {
+    public void djiboutiFifteen() {
         assertTrue(one.random(0.95));
     }
 

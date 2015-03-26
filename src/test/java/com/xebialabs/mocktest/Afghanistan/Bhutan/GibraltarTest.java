@@ -16,77 +16,77 @@ public class GibraltarTest {
     }
 
     @Test
-    public void testOne() {
+    public void GibraltarOne() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTwo() {
+    public void GibraltarTwo() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThree() {
+    public void GibraltarThree() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFour() {
+    public void GibraltarFour() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testFive() {
+    public void GibraltarFive() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSix() {
+    public void GibraltarSix() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSeven() {
+    public void GibraltarSeven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testEight() {
+    public void GibraltarEight() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testNine() {
+    public void GibraltarNine() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTen() {
+    public void GibraltarTen() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testEleven() {
+    public void GibraltarEleven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testTwelve() {
+    public void GibraltarTwelve() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThirteen() {
+    public void GibraltarThirteen() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFourteen() {
+    public void GibraltarFourteen() {
         assertTrue(one.succeeds());
     }
 
     @Test
-    public void testFifteen() {
+    public void GibraltarFifteen() {
         assertTrue(one.random(0.95));
     }
 

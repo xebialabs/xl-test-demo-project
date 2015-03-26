@@ -16,77 +16,77 @@ public class GabonTest {
     }
 
     @Test
-    public void testOne() {
+    public void GabonOne() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTwo() {
+    public void GabonTwo() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThree() {
+    public void GabonThree() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFour() {
+    public void GabonFour() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testFive() {
+    public void GabonFive() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSix() {
+    public void GabonSix() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSeven() {
+    public void GabonSeven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testEight() {
+    public void GabonEight() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testNine() {
+    public void GabonNine() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTen() {
+    public void GabonTen() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testEleven() {
+    public void GabonEleven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testTwelve() {
+    public void GabonTwelve() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThirteen() {
+    public void GabonThirteen() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFourteen() {
+    public void GabonFourteen() {
         assertTrue(one.succeeds());
     }
 
     @Test
-    public void testFifteen() {
+    public void GabonFifteen() {
         assertTrue(one.random(0.95));
     }
 

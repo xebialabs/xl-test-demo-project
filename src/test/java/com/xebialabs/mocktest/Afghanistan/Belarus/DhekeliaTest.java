@@ -17,77 +17,77 @@ public class DhekeliaTest {
     }
 
     @Test
-    public void testOne() {
+    public void dhekeliaOne() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTwo() {
+    public void dhekeliaTwo() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThree() {
+    public void dhekeliaThree() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFour() {
+    public void dhekeliaFour() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testFive() {
+    public void dhekeliaFive() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSix() {
+    public void dhekeliaSix() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSeven() {
+    public void dhekeliaSeven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testEight() {
+    public void dhekeliaEight() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testNine() {
+    public void dhekeliaNine() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTen() {
+    public void dhekeliaTen() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testEleven() {
+    public void dhekeliaEleven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testTwelve() {
+    public void dhekeliaTwelve() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThirteen() {
+    public void dhekeliaThirteen() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFourteen() {
+    public void dhekeliaFourteen() {
         assertTrue(one.succeeds());
     }
 
     @Test
-    public void testFifteen() {
+    public void dhekeliaFifteen() {
         assertTrue(one.random(0.95));
     }
 

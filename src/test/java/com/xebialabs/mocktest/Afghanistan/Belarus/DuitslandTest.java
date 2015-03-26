@@ -17,77 +17,77 @@ public class DuitslandTest {
     }
 
     @Test
-    public void testOne() {
+    public void DuitslandOne() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTwo() {
+    public void DuitslandTwo() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThree() {
+    public void DuitslandThree() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFour() {
+    public void DuitslandFour() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testFive() {
+    public void DuitslandFive() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSix() {
+    public void DuitslandSix() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSeven() {
+    public void DuitslandSeven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testEight() {
+    public void DuitslandEight() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testNine() {
+    public void DuitslandNine() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTen() {
+    public void DuitslandTen() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testEleven() {
+    public void DuitslandEleven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testTwelve() {
+    public void DuitslandTwelve() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThirteen() {
+    public void DuitslandThirteen() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFourteen() {
+    public void DuitslandFourteen() {
         assertTrue(one.succeeds());
     }
 
     @Test
-    public void testFifteen() {
+    public void DuitslandFifteen() {
         assertTrue(one.random(0.95));
     }
 

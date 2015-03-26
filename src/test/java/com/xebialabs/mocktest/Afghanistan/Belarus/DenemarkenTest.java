@@ -17,77 +17,77 @@ public class DenemarkenTest {
     }
 
     @Test
-    public void testOne() {
+    public void denemarkenOne() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTwo() {
+    public void denemarkenTwo() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testThree() {
+    public void denemarkenThree() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testFour() {
+    public void denemarkenFour() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testFive() {
+    public void denemarkenFive() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testSix() {
+    public void denemarkenSix() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testSeven() {
+    public void denemarkenSeven() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testEight() {
+    public void denemarkenEight() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testNine() {
+    public void denemarkenNine() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTen() {
+    public void denemarkenTen() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testEleven() {
+    public void denemarkenEleven() {
         assertTrue(one.random(0.5));
     }
 
     @Test
-    public void testTwelve() {
+    public void denemarkenTwelve() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testThirteen() {
+    public void denemarkenThirteen() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testFourteen() {
+    public void denemarkenFourteen() {
         assertTrue(one.succeeds());
     }
 
     @Test
-    public void testFifteen() {
+    public void denemarkenFifteen() {
         assertTrue(one.random(0.95));
     }
 

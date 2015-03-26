@@ -16,77 +16,77 @@ public class GeorgiëTest {
     }
 
     @Test
-    public void testOne() {
+    public void GeorgieOne() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTwo() {
+    public void GeorgieTwo() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThree() {
+    public void GeorgieThree() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFour() {
+    public void GeorgieFour() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testFive() {
+    public void GeorgieFive() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSix() {
+    public void GeorgieSix() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSeven() {
+    public void GeorgieSeven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testEight() {
+    public void GeorgieEight() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testNine() {
+    public void GeorgieNine() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTen() {
+    public void GeorgieTen() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testEleven() {
+    public void GeorgieEleven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testTwelve() {
+    public void GeorgieTwelve() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThirteen() {
+    public void GeorgieThirteen() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFourteen() {
+    public void GeorgieFourteen() {
         assertTrue(one.succeeds());
     }
 
     @Test
-    public void testFifteen() {
+    public void GeorgieFifteen() {
         assertTrue(one.random(0.95));
     }
 

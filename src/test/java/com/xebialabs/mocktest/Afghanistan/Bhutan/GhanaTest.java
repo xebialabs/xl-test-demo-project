@@ -16,77 +16,77 @@ public class GhanaTest {
     }
 
     @Test
-    public void testOne() {
+    public void GhanaOne() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTwo() {
+    public void GhanaTwo() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThree() {
+    public void GhanaThree() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFour() {
+    public void GhanaFour() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testFive() {
+    public void GhanaFive() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSix() {
+    public void GhanaSix() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testSeven() {
+    public void GhanaSeven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testEight() {
+    public void GhanaEight() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testNine() {
+    public void GhanaNine() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testTen() {
+    public void GhanaTen() {
         assertTrue(one.random(0.95));
     }
 
     @Test
-    public void testEleven() {
+    public void GhanaEleven() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testTwelve() {
+    public void GhanaTwelve() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testThirteen() {
+    public void GhanaThirteen() {
         assertTrue(one.random(1));
     }
 
     @Test
-    public void testFourteen() {
+    public void GhanaFourteen() {
         assertTrue(one.succeeds());
     }
 
     @Test
-    public void testFifteen() {
+    public void GhanaFifteen() {
         assertTrue(one.random(0.95));
     }
 

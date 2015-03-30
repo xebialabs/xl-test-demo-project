@@ -32,8 +32,6 @@ public class One {
         }
         return true;
     }
-
-    Whoooo. Compile error!!!
     
     public boolean random(double probability) {
         try {

@@ -19,4 +19,4 @@ task testNG(type: Test) { useTestNG() }
 //test.dependsOn testNG
 
 //testNG.testReportDir = file("$buildDir/reports/testng")
-test.testReportDir = file("$buildDir/reports/testjunit")
+//test.testReportDir = file("$buildDir/reports/testjunit")

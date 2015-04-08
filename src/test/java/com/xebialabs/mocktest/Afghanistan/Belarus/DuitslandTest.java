@@ -33,7 +33,7 @@ public class DuitslandTest {
 
     @Test
     public void DuitslandFour() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
@@ -58,12 +58,12 @@ public class DuitslandTest {
 
     @Test
     public void DuitslandNine() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void DuitslandTen() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test

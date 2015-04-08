@@ -17,7 +17,7 @@ public class GhanaTest {
 
     @Test
     public void GhanaOne() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
@@ -52,7 +52,7 @@ public class GhanaTest {
 
     @Test
     public void GhanaEight() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
@@ -62,7 +62,7 @@ public class GhanaTest {
 
     @Test
     public void GhanaTen() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test

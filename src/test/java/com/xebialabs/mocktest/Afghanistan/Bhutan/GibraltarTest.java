@@ -52,17 +52,17 @@ public class GibraltarTest {
 
     @Test
     public void GibraltarEight() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void GibraltarNine() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void GibraltarTen() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test

@@ -18,7 +18,7 @@ public class DominicaTest {
 
     @Test
     public void dominicaOne() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
@@ -33,7 +33,7 @@ public class DominicaTest {
 
     @Test
     public void dominicaFour() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
@@ -58,17 +58,17 @@ public class DominicaTest {
 
     @Test
     public void dominicaNine() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void dominicaTen() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void dominicaEleven() {
-        assertTrue(one.random(1));
+        assertTrue(one.random(0.5));
     }
 
     @Test
@@ -88,7 +88,7 @@ public class DominicaTest {
 
     @Test
     public void dominicaFifteen() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.succeeds());
     }
 
 }

@@ -32,7 +32,7 @@ public class GeorgiëTest {
 
     @Test
     public void GeorgieFour() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
@@ -52,12 +52,12 @@ public class GeorgiëTest {
 
     @Test
     public void GeorgieEight() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void GeorgieNine() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test

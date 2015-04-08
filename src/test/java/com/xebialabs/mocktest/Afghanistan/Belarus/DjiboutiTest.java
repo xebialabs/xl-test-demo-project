@@ -18,12 +18,12 @@ public class DjiboutiTest {
 
     @Test
     public void djiboutiOne() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void djiboutiTwo() {
-        assertTrue(one.random(1));
+        assertTrue(one.fails());
     }
 
     @Test
@@ -53,17 +53,17 @@ public class DjiboutiTest {
 
     @Test
     public void djiboutiEight() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void djiboutiNine() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void djiboutiTen() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
@@ -88,7 +88,7 @@ public class DjiboutiTest {
 
     @Test
     public void djiboutiFifteen() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.succeeds());
     }
 
 }

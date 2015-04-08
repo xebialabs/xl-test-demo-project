@@ -18,7 +18,7 @@ public class DenemarkenTest {
 
     @Test
     public void denemarkenOne() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
@@ -28,57 +28,57 @@ public class DenemarkenTest {
 
     @Test
     public void denemarkenThree() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void denemarkenFour() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void denemarkenFive() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void denemarkenSix() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void denemarkenSeven() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void denemarkenEight() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void denemarkenNine() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void denemarkenTen() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void denemarkenEleven() {
-        assertTrue(one.random(0.5));
+        assertTrue(one.random(0.9));
     }
 
     @Test
     public void denemarkenTwelve() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void denemarkenThirteen() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
@@ -88,7 +88,7 @@ public class DenemarkenTest {
 
     @Test
     public void denemarkenFifteen() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
 }

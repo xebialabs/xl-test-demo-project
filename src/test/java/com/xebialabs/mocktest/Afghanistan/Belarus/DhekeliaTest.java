@@ -18,7 +18,7 @@ public class DhekeliaTest {
 
     @Test
     public void dhekeliaOne() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
@@ -33,7 +33,7 @@ public class DhekeliaTest {
 
     @Test
     public void dhekeliaFour() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
@@ -53,7 +53,7 @@ public class DhekeliaTest {
 
     @Test
     public void dhekeliaEight() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test

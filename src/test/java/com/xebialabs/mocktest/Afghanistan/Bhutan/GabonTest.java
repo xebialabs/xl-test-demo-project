@@ -17,7 +17,7 @@ public class GabonTest {
 
     @Test
     public void GabonOne() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
@@ -32,7 +32,7 @@ public class GabonTest {
 
     @Test
     public void GabonFour() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
@@ -52,17 +52,17 @@ public class GabonTest {
 
     @Test
     public void GabonEight() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void GabonNine() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
     public void GabonTen() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
     @Test
@@ -87,7 +87,7 @@ public class GabonTest {
 
     @Test
     public void GabonFifteen() {
-        assertTrue(one.random(0.95));
+        assertTrue(one.random(1));
     }
 
 }

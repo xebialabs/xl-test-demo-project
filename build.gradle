@@ -1,7 +1,4 @@
-apply plugin: "xebialabs-java"
-apply plugin: "xebialabs-artifact"
-apply plugin: "third-party-license"
-apply plugin: "application"
+apply plugin: "java"
 apply plugin: "idea"
 apply plugin: "eclipse"
 
@@ -14,97 +11,12 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
-    testCompile mockito_core
-    testCompile testng
+    testCompile 'org.testng:testng:6.8.21'
 }
 
 task testNG(type: Test) { useTestNG() }
 
 //test.dependsOn testNG
 
-testNG.testReportDir = file("$buildDir/reports/testng")
+//testNG.testReportDir = file("$buildDir/reports/testng")
 test.testReportDir = file("$buildDir/reports/testjunit")
-
-thirdPartyLicense {
-  ignoredGroups = [
-      'com.xebialabs.deployit',
-      'com.xebialabs.deployit.engine',
-      'com.xebialabs.deployit.plugins',
-      'com.xebialabs.license',
-      'com.xebialabs.xl-platform',
-      'com.xebialabs.xl-test',
-      'com.xebialabs.xltest',
-  ]
-}
-
-//dependencies {
-//  compile project(':plugin-api')
-//
-//  compile bouncycastle
-//  compile commons_lang3
-//  compile elastic_search
-//  compile freemarker
-//  compile groovy_all
-//  compile guava
-//  compile jcr
-//  compile jettison
-//  compile jetty_webapp, jetty_server, servletapi, jetty_servlet, jetty_util, jetty_jmx
-//  compile joda_time
-//  compile json_path
-//  compile json_smart
-//  compile jython_standalone
-//  compile logback_classic
-//  compile logback_access
-//  compile logback_core
-//  compile lucene_expressions
-//  compile mustache
-//  compile overthere
-//
-//  compile platform_appserver_api_impl
-//  compile platform_appserver_core
-//  compile platform_appserver_main
-//  compile platform_engine_api
-//  compile platform_engine_spi
-//  compile platform_engine_xml
-//  compile platform_local_booter
-//  compile platform_udm_plugin_api
-//  compile platform_xl_core
-//  compile platform_xl_license
-//  compile platform_xl_repository_api
-//  compile platform_xl_repository_jcr
-//  compile platform_xl_repository_modeshape
-//  compile resteasy_jaxbprovider
-//  compile resteasy_jaxrs, resteasy_spring, jaxrs_api
-//  compile resteasy_jettison
-//  compile scala_library
-//  compile scannit
-//  compile spring_web, spring_core, spring_context, spring_beans, spring_security_core,spring_security_web, spring_security_ldap
-//  compile xldeploy_remoting_plugin
-//
-//  runtime h2
-//  runtime infinispan_jdbc
-//  runtime c3p0
-//
-//  testCompile apache_httpclient4
-//  testCompile apache_httpcore4
-//  testCompile spring_test
-//  testCompile platform_xl_test_repository
-//
-//  thirdPartyLicenseDatabase license_database
-//
-//  wro4j "ro.isdc.wro4j:wro4j-runner:1.7.2"
-//  wro4j "org.codehaus.groovy:groovy:2.2.1"
-//  wro4j "com.google.code.gson:gson:2.2.4"
-//
-//  bundledPlugins project(":fitnesse-plugin")
-//  bundledPlugins project(":cucumber-plugin")
-//  bundledPlugins project(":gatling-plugin")
-//  bundledPlugins project(":xunit-plugin")
-//  bundledPlugins project(":jenkins-plugin")
-//  bundledPlugins project(":jmeter-plugin")
-//  bundledPlugins fitnesse
-//
-//  // TODO: use proper plugin dependency management (XLDP like?)
-//  jMeterPluginApiDeps apache_commons_math
-//  jMeterPluginDeps apache_commons_csv
-//}

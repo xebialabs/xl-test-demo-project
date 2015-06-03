@@ -26,4 +26,8 @@ task testNG(type: Test) {
 
 test {
   ignoreFailures = true;
+
+  //Force gradle to always rerun this test
+  outputs.upToDateWhen { false }
 }
+

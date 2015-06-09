@@ -6,16 +6,22 @@ import java.util.concurrent.TimeUnit;
 public class One {
     private int counter = 0;
     private final Random random;
+    private final boolean failureIsNotAnOption;
 
     public One() {
         random = new Random();
+        failureIsNotAnOption = Boolean.getBoolean("succeed");
     }
 
     public One(int seed) {
         random = new Random(seed);
+        failureIsNotAnOption = Boolean.getBoolean("succeed");
     }
 
     public boolean fails() {
+        if (failureIsNotAnOption) {
+            return true;
+        }
         try {
             TimeUnit.MILLISECONDS.sleep(10);
         } catch (InterruptedException e) {
@@ -32,8 +38,11 @@ public class One {
         }
         return true;
     }
-    
+
     public boolean random(double probability) {
+        if (failureIsNotAnOption) {
+            return true;
+        }
         try {
             TimeUnit.MILLISECONDS.sleep(10);
         } catch (InterruptedException e) {

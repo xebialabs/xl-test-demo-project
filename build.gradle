@@ -9,6 +9,8 @@ repositories {
   mavenCentral()
 }
 
+ext.succeed = project.hasProperty('succeed') && project.getProperty('succeed') == 'true'
+
 dependencies {
   testCompile group: 'junit', name: 'junit', version: '4.11'
   testCompile 'org.testng:testng:6.8.21'
@@ -17,17 +19,17 @@ dependencies {
 task testNG(type: Test) {
   useTestNG()
   ignoreFailures = true
+  outputs.upToDateWhen { false }
+  println succeed
+  systemProperty 'succeed', succeed
 }
 
-//test.dependsOn testNG
-
-//testNG.testReportDir = file("$buildDir/reports/testng")
-//test.testReportDir = file("$buildDir/reports/testjunit")
 
 test {
   ignoreFailures = true;
-
-  //Force gradle to always rerun this test
+  // Force gradle to always rerun this test
   outputs.upToDateWhen { false }
+  systemProperty 'succeed', succeed
 }
 
+check.dependsOn testNG

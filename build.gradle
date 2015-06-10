@@ -25,7 +25,6 @@ task testNG(type: Test) {
 }
 
 
-tasks.withType(Test) {systemProperties = System.getProperties() }
 test {
   ignoreFailures = true;
   // Force gradle to always rerun this test
@@ -33,4 +32,4 @@ test {
   systemProperty 'succeed', succeed
 }
 
-check.dependsOn testNG
+//check.dependsOn testNG

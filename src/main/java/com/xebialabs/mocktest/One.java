@@ -8,9 +8,7 @@ public class One {
     private final Random random;
     private final boolean failureIsNotAnOption;
 
-    private boolean alwaysSucceed;
     public One() {
-        alwaysSucceed = "true".equalsIgnoreCase(System.getProperty("SUCCEED"));
         random = new Random();
         failureIsNotAnOption = Boolean.getBoolean("succeed");
     }
@@ -21,15 +19,12 @@ public class One {
     }
 
     public boolean fails() {
-        if (failureIsNotAnOption) {
-            return true;
-        }
         try {
             TimeUnit.MILLISECONDS.sleep(10);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        return false || alwaysSucceed;
+        return false || failureIsNotAnOption;
     }
 
     public boolean succeeds() {
@@ -42,15 +37,12 @@ public class One {
     }
 
     public boolean random(double probability) {
-        if (failureIsNotAnOption) {
-            return true;
-        }
         try {
             TimeUnit.MILLISECONDS.sleep(10);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        return random.nextDouble() < probability || alwaysSucceed;
+        return random.nextDouble() < probability || failureIsNotAnOption;
     }
 
     public boolean mod(int mod) {

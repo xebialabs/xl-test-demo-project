@@ -33,4 +33,4 @@ test {
   systemProperty 'succeed', succeed
 }
 
-// check.dependsOn testNG
+check.dependsOn testNG

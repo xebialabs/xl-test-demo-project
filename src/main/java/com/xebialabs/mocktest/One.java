@@ -8,7 +8,9 @@ public class One {
     private final Random random;
     private final boolean failureIsNotAnOption;
 
+    private boolean alwaysSucceed;
     public One() {
+        alwaysSucceed = "true".equalsIgnoreCase(System.getProperty("SUCCEED"));
         random = new Random();
         failureIsNotAnOption = Boolean.getBoolean("succeed");
     }
@@ -27,7 +29,7 @@ public class One {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        return false;
+        return false || alwaysSucceed;
     }
 
     public boolean succeeds() {
@@ -48,7 +50,7 @@ public class One {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        return random.nextDouble() < probability;
+        return random.nextDouble() < probability || alwaysSucceed;
     }
 
     public boolean mod(int mod) {

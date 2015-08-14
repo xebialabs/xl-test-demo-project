@@ -3,3 +3,5 @@ build
 *.iws
 *.iml
 *.ipr
+*.class
+*.jar

@@ -5,3 +5,4 @@ build
 *.ipr
 *.class
 *.jar
+test-output

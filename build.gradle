@@ -24,6 +24,7 @@ task testNG(type: Test) {
   systemProperty 'succeed', succeed
 }
 
+compileTestJava.options.encoding = 'UTF-8'
 
 test {
   ignoreFailures = true;
